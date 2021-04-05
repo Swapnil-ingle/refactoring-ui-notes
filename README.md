@@ -114,3 +114,31 @@ Only the primary action button of that page should be bold or have high-contrast
 - Primary Button: Bold or high-contrast background
 - Secondary Button: Soft-contrast or outlined styled
 - Tertiary Button: Just a colored text with the link to tertiary action page or pop-up modal.
+
+### Layout and Spacing
+
+1. Start with too much white space. Rather than adding white-space until it feels enough, add too much of it and _remove_ until it feels enough.
+2. Establish spacing and sizing system. Limit yourself to a constrainted set of spacing/sizing values defined in advance.
+
+Spacing System as suggested by the book, use the following template of pre-defined values for defining any space in your UI. (These are multiple of 16 and that is why they are consistent, if one value is too small pick next one and so on)
+
+- 4px
+- 8px
+- 12px
+- 16px
+- 24px
+- 32px
+- 48px
+- 64px
+- 96px
+- 128px
+- 192px
+- 256px
+- 384px
+- 512px
+- 640px
+- 768px
+
+3. Design the mobile layout first (On ~400px canvas), as the contraints are real. Once the mobile version is ready, bring it to desktop width and resize whatever was a compromise due to mobile screen limit.
+
+4. Think in terms of columns. If you bring something from mobile-view to desktop-view and that element is taking too much size think how you can refactor it into multiple columns.
