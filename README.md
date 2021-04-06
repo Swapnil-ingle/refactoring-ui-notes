@@ -142,3 +142,7 @@ Spacing System as suggested by the book, use the following template of pre-defin
 3. Design the mobile layout first (On ~400px canvas), as the contraints are real. Once the mobile version is ready, bring it to desktop width and resize whatever was a compromise due to mobile screen limit.
 
 4. Think in terms of columns. If you bring something from mobile-view to desktop-view and that element is taking too much size think how you can refactor it into multiple columns.
+
+5. Don't make things grow/shrink proportionate to each-other (ex: Padding or margin in percentage or em), this won't make sense when things go from desktop size to mobile size.
+
+6.
