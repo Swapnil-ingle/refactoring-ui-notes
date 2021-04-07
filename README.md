@@ -115,7 +115,7 @@ Only the primary action button of that page should be bold or have high-contrast
 - Secondary Button: Soft-contrast or outlined styled
 - Tertiary Button: Just a colored text with the link to tertiary action page or pop-up modal.
 
-### Layout and Spacing
+# Layout and Spacing
 
 1. Start with too much white space. Rather than adding white-space until it feels enough, add too much of it and _remove_ until it feels enough.
 2. Establish spacing and sizing system. Limit yourself to a constrainted set of spacing/sizing values defined in advance.
@@ -145,4 +145,20 @@ Spacing System as suggested by the book, use the following template of pre-defin
 
 5. Don't make things grow/shrink proportionate to each-other (ex: Padding or margin in percentage or em), this won't make sense when things go from desktop size to mobile size.
 
-6.
+6. Whenever you’re relying on spacing to connect a group of elements, always make sure there’s more space around the group than there is within it — interfaces that are hard to understand always look worse.
+
+# Designing Text
+
+This text size scheme is recommended by the Refactoring UI.
+
+- 12px
+- 14px
+- 16px
+- 18px
+- 20px
+- 24px
+- 30px
+- 36px
+- 48px
+- 60px
+- 72px
