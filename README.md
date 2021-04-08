@@ -162,3 +162,13 @@ This text size scheme is recommended by the Refactoring UI.
 - 48px
 - 60px
 - 72px
+
+* Avoid using em units, as we learned earlier relative size don't grow/shrink as expected.
+
+* Use popular fonts and stic to neutral sans-serif font, ex; Helvetica. (Steal from websites you adore :D)
+
+* Your line-length should be 45-75 chars/line.
+
+* Vertically align-items to bottom when they're text, rather than aligning them in center.
+
+* Line-height should depend on the width of the text-content. Narrower can use line-height of 1.5 while wider text-content should use 2 line height.
