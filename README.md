@@ -171,4 +171,49 @@ This text size scheme is recommended by the Refactoring UI.
 
 * Vertically align-items to bottom when they're text, rather than aligning them in center.
 
-* Line-height should depend on the width of the text-content. Narrower can use line-height of 1.5 while wider text-content should use 2 line height.
+* Line-height and the width of the text-content are directly proportional. Narrower content can use line-height of 1.5 while wider text-content should use 2 line height. For large headlines you can stick to line-height value as 1. (Line-height and font size are inversely proportional)
+
+* If something is longer than 2 or 3 lines, always left align it, rather than center-aligning it.
+
+* If you've a table with numbers, right-align them.
+
+* You can use a tighter letter-spacing for headlines OR increase the letter-spacing for ALL-CAPS headlines or titles or sub-titles. (Tweak around and see if it looks better than before)
+
+# Working with Color
+
+1. Rather than Hex or RGB use HSL (Hue, Saturation, Lightness) color-codes. Because, these values are actually comprehensible compared to the Hex or RGB codes. For ex; three different shades of blue in HSL are HSL(220, 95%, 35%), HSL(220, 69%, 80%), HSL(220, 65%, 61%) - which is evident by the 220 value which is the radial degreee val for the blue color on the [HSL color wheel](https://tsh.io/wp-content/uploads/2019/12/hsl-color-wheel.png).
+
+## How to make your color-pallete
+
+### Greys
+
+Almost anywhere, where there is some user-interaction going on, a grey color-pallete should be used.
+
+> "Text, backgrounds, panels, form controls — almost everything in an interface is grey"
+
+You want 8-10 shades of grey to choose from. Start with a really dark grey and work your way to white incrementally.
+
+### Primary Colors
+
+Your site will need one or two primary colors (used for primary actions, active navigation elements, etc).
+
+Just like with greys, you need a variety (5-10) of lighter and darker shades to choose from.
+
+> Ultra-light shades can be useful as a tinted background for things like alerts, while darker shades work great for text.
+
+### Accent Colors
+
+On top of primary colors, every site needs a few accent colors for communicating different things to the user.
+
+For ex; red for destructive actions, green for positive actions, yellow for warnings, teal for some special tag, etc. All in all, it is not uncommon to have ~10 accent colors on a complex UI.
+
+You'll also need 5-10 shades of each of these colors defined, although make sure to use them very sparingly.
+
+## Define your shades upfront
+
+Define you primary, accent and neutral (Greys) color and shades upfront.
+
+Steps:
+
+1. Choose the base color first.
+2.
