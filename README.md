@@ -215,5 +215,16 @@ Define you primary, accent and neutral (Greys) color and shades upfront.
 
 Steps:
 
-1. Choose the base color first.
-2.
+1. Choose the base color first. (Prefer a color that would work well as a button background)
+   1. Choose the darkest (this should make a good font-color) and the lightest color (this should make a good background color/tint).
+   2. Prefer a nine-colors palette, now you have three colors and require 6. Pick a color which is midway of darkest and base and another which is midway of lightest and base. Repeat four more times with the new colors that you just added.
+2. In HSL color-scale, increase the saturation as you move further away from 50% lightness.
+3. To make a color lighter or darker (rather than just tweaking the lightness param in HSL color), try rotating the hue. To make lighter rotate towards lighter perceived hues (60° - Yellow, 180° - Cyan, 300° - Magenta), and to make it darker rotate towards darked perceived hues (0° - Red, 120° - Green, Blue - 240°). This will vibrantly make your color light/dark. (Refer to a HSL color wheel image to visualize this if it confuses you) Note: As a rule of thumb, don't rotate the hue more than 20-30°.
+
+## Greys don't have to grey
+
+By definition, grey have a saturation of 0, but you don't have to go that way.
+
+You can make your grey color-palette "cool" by saturating it with a bit of blue or "warm" by saturating it with a bit of yellow/orange.
+
+Try doing this, instead of using dull greys and see if it goes with your design.
