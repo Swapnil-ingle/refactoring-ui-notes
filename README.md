@@ -228,3 +228,53 @@ By definition, grey have a saturation of 0, but you don't have to go that way.
 You can make your grey color-palette "cool" by saturating it with a bit of blue or "warm" by saturating it with a bit of yellow/orange.
 
 Try doing this, instead of using dull greys and see if it goes with your design.
+
+## Ensuring Accessibility
+
+- Rather than using light color font on dark background (for status of something; ex-Approved, Denied, Awaiting Approval, etc) use dark color font on lighter background. This will not scream for attention ruining the heirarchy of the design.
+
+- For light color secondary font (where the primary font is white) on a darker background, rotate the hue of the secondary text-color to create enough contrast without having to use very close to white color (which is already our primary text and secondary also will look the same in that case).
+
+* Make the UI color-blind friendly adding icons whereever necessary and using constrast of same color instead of diff color in a pie chart. Always be vigilant and lookout for color-blindness failing elements.
+
+### Offset or Inset a button, element or div.
+
+- To offset a button/element/div (make it appear as elevated from the page) add an inset box-shadow to top and a normal box-shadow on bottom.
+
+```CSS
+#submit-button {
+   color: hsl(225, 80%, 60%);
+}
+
+.raise-btn {
+   box-shadow: inset 0 1px 0 hsl(224, 84%, 74%);
+   box-shadow: 0 1px 3px hsla(0, 0%, 0%, .2);
+}
+
+.dug-down-btn {
+   box-shadow: inset 0 2px 2px hsl(0, 0, 0, 0.1);
+   box-shadow: 0 -2px 0 hsla(0, 0%, 100%, .15);
+}
+```
+
+Generally, make inputs (textbox, checkbox, radio-btns, etc) as inset and buttons as offset.
+
+### Use shadows to elevate diff elements.
+
+The more the shadow-blur area, the closer the element feels to the user and the more important that element is.
+
+- Lower shadow -> Use for small btns which are not very prominent
+- Medium shadow -> Use for the dropdown elements.
+- High shadow -> Use for modals which really demand attention.
+
+**Setup an elevation system:**
+
+Predefining a fixed set of shadows will expedite your design workflow.
+
+The book recommend these five (or start with your own min shadow and max shadow and fill in with linearly increasing the area):
+
+1.  box-shadow: 0 1px 3px hsla(0, 0%, .2);
+2.  box-shadow: 0 4px 6px hsla(0, 0%, .2);
+3.  box-shadow: 0 5px 15px hsla(0, 0%, .2);
+4.  box-shadow: 0 10px 24px hsla(0, 0%, .2);
+5.  box-shadow: 0 15px 35px hsla(0, 0%, .2);
