@@ -278,3 +278,33 @@ The book recommend these five (or start with your own min shadow and max shadow 
 3.  box-shadow: 0 5px 15px hsla(0, 0%, .2);
 4.  box-shadow: 0 10px 24px hsla(0, 0%, .2);
 5.  box-shadow: 0 15px 35px hsla(0, 0%, .2);
+
+- Make your divisions span across another divs to create a multi-layered effect. You can do this by either, 1. Making margin negative so that it spills across to other div. 2. Expanding the height more than the parent container.
+
+## Playing with images
+
+- Use a sharp bg images that go with the website color-scheme and mood.
+- If you want to add text on image either whiten the image and darken the text or the opposite or "colorize" the image and then add the text.
+- Don't scale icons up or down, use specific icons created for specific dimension. Or, if you want to upscale, add a background color to the same size icon.
+- For adding a gradient as bg color, use two hues that are no more than 30° apart.
+
+### Don't overlook empty states
+
+- Imagine you've created a contact-book and there are no contacts added by the user, rather than showing empty screen. Add an image and a CTA button that directly lets the user add a contact.
+- Don't show filters and search tab and everything unless the content that it is searching is not there at all. For ex; don't show the search notes, and bookmarked notes button if there are currently no notes. Just show one primary button that lets the user create a note first.
+
+### Use fewer borders
+
+When you need to create separation between the two elements, try to resist immediately reaching for the border.
+
+- Rather than using borders to create distinction between two adjacent elements, use diff background-colors to create that distinction.
+- Add more than and remove the borders, this will mostly get the elements to feel more distinct.
+
+# Think outside the box
+
+**Dropdowns:** Don't use a simple text-list with box-shadow, maybe use icons multiple columns and little descriptions.
+**Tables:** Don't use each column for each data, use some data as subtitle of other column add picture if relevant, introduce some colored-tags from the data. It'd make things more interesting.
+**Bullet List (Radio buttons):** If a radio-button selection is important part of the UI you're designing, try something like selectable card instead. Or use some relevant icons as the bullets rather than plain bullets.
+
+> Whenever you stumble across a design you really like, ask yourself:
+> “Did the designer do anything here that I never would have thought to do?”
